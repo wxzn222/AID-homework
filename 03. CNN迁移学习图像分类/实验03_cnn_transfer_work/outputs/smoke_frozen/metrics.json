@@ -1,0 +1,35 @@
+{
+  "profile": "smoke",
+  "strategy": "frozen",
+  "python": "3.12.13",
+  "torch": "2.13.0+cpu",
+  "torchvision": "0.28.0+cpu",
+  "device": "cpu",
+  "samples": {
+    "train": 80,
+    "val": 40,
+    "test": 60
+  },
+  "epochs": 1,
+  "image_size": 64,
+  "total_parameters": 11177538,
+  "trainable_parameters": 1026,
+  "train_seconds": 0.41079789999639615,
+  "test": {
+    "accuracy": 0.4666666666666667,
+    "macro_precision": 0.45738636363636365,
+    "macro_recall": 0.4666666666666667,
+    "macro_f1": 0.43595769682726204,
+    "loss": 0.8988961418469746
+  },
+  "confusion_matrix": [
+    [
+      7,
+      23
+    ],
+    [
+      9,
+      21
+    ]
+  ]
+}

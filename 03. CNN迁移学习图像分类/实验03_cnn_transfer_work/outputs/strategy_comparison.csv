@@ -1,0 +1,3 @@
+﻿strategy,trainable_parameters,train_seconds,test_accuracy,macro_f1
+frozen,1026,24.9,0.784,0.784
+partial,8394754,31.3,0.834,0.834

@@ -59,3 +59,13 @@ py -3.12 -m venv .venv
 - `outputs/` 与 `models/` 是本人运行产生的实验产物，按评分标准一并提交。
 - 不提交 `.venv`、Python 缓存与临时文件。
 - 类别使用中性标记 `class_0` / `class_1`，不做行业语义假设。
+## 实验 02～05
+
+| 实验 | 工作目录 | 主要内容 | 关键结果 |
+| :-- | :-- | :-- | :-- |
+| 02 | `02. PyTorch神经网络训练与模型管理/实验02_pytorch_mlp_work` | PyTorch MLP 训练、验证、测试与模型保存/重载 | 测试集 Accuracy 0.8525，Macro-F1 0.8550 |
+| 03 | `03. CNN迁移学习图像分类/实验03_cnn_transfer_work` | ResNet18 迁移学习，冻结骨干与部分微调对比 | 冻结 Accuracy 0.784；部分微调 Accuracy 0.834 |
+| 04 | `04. 推荐系统与排序评价/实验04_recsys_work` | MovieLens 100K、ItemCF 与流行度基线、Top-K 排序评价 | ItemCF Recall@10 0.085987、NDCG@10 0.044131 |
+| 05 | `05. Transformer与大语言模型推理基础/实验05_transformer_llm_work` | Qwen2.5-0.5B CPU 推理、token、解码、上下文裁剪与结构化校验 | Pydantic 校验 PASS；在线 API 因缺少配置为 SKIP |
+
+每个实验目录均包含个人工作副本和对应 Word/PDF 报告。`outputs/` 中保留本人运行产生的指标、图表和模型文件；数据集、`.venv`、`hf_cache` 与 Python 缓存不提交。

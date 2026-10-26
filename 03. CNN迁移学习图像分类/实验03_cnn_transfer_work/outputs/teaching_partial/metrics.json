@@ -1,0 +1,35 @@
+{
+  "profile": "teaching",
+  "strategy": "partial",
+  "python": "3.12.13",
+  "torch": "2.13.0+cpu",
+  "torchvision": "0.28.0+cpu",
+  "device": "cpu",
+  "samples": {
+    "train": 1600,
+    "val": 400,
+    "test": 500
+  },
+  "epochs": 3,
+  "image_size": 96,
+  "total_parameters": 11177538,
+  "trainable_parameters": 8394754,
+  "train_seconds": 31.30648040000233,
+  "test": {
+    "accuracy": 0.834,
+    "macro_precision": 0.8342620614561816,
+    "macro_recall": 0.834,
+    "macro_f1": 0.8339674576216938,
+    "loss": 0.4028742642402649
+  },
+  "confusion_matrix": [
+    [
+      212,
+      38
+    ],
+    [
+      45,
+      205
+    ]
+  ]
+}

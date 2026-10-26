@@ -1,0 +1,23 @@
+{
+  "greedy": {
+    "text": "注意力机制通过分发信息到不同的层来提高模型的鲁棒性和效率。",
+    "seconds": 2.943096600007266,
+    "new_tokens": 19,
+    "prompt_tokens": 36,
+    "peak_rss_mb": 2285.6953125
+  },
+  "focused": {
+    "text": "注意力机制用于在多任务学习中提高模型的性能和鲁棒性。",
+    "seconds": 2.929952099919319,
+    "new_tokens": 18,
+    "prompt_tokens": 36,
+    "peak_rss_mb": 2292.1484375
+  },
+  "diverse": {
+    "text": "注意力机制用于增强网络对输入信息的专注和理解能力。",
+    "seconds": 2.5079421000555158,
+    "new_tokens": 15,
+    "prompt_tokens": 36,
+    "peak_rss_mb": 2292.421875
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "raw": "```json\n{\n  \"topic\": \"Transformer\",\n  \"difficulty\": 4,\n  \"keywords\": [\"transformer\", \"deep learning\", \"neural networks\"],\n  \"estimated_minutes\": 120\n}\n```",
+  "validated": {
+    "topic": "Transformer",
+    "difficulty": 4,
+    "keywords": [
+      "transformer",
+      "deep learning",
+      "neural networks"
+    ],
+    "estimated_minutes": 120
+  }
+}

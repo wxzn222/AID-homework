@@ -13,3 +13,7 @@ Desktop.ini
 ~$*
 
 # 注意：本仓库需要提交 outputs/ 与 models/ 作为实验产物，故不忽略它们。
+# 数据集与模型缓存（按需由脚本下载，不提交）
+**/data/
+**/hf_cache/
+**/hf-cache/

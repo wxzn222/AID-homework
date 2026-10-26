@@ -1,0 +1,53 @@
+[
+  {
+    "epoch": 1,
+    "train": {
+      "accuracy": 0.801875,
+      "macro_precision": 0.803011767584328,
+      "macro_recall": 0.801875,
+      "macro_f1": 0.8016890059778723,
+      "loss": 0.44087147355079653
+    },
+    "val": {
+      "accuracy": 0.865,
+      "macro_precision": 0.8651460584233693,
+      "macro_recall": 0.865,
+      "macro_f1": 0.864986498649865,
+      "loss": 0.30598035871982576
+    }
+  },
+  {
+    "epoch": 2,
+    "train": {
+      "accuracy": 0.92625,
+      "macro_precision": 0.9264658983610452,
+      "macro_recall": 0.92625,
+      "macro_f1": 0.9262406648341431,
+      "loss": 0.18331505566835404
+    },
+    "val": {
+      "accuracy": 0.8875,
+      "macro_precision": 0.8875096877421935,
+      "macro_recall": 0.8875,
+      "macro_f1": 0.8874992968706055,
+      "loss": 0.3065600571036339
+    }
+  },
+  {
+    "epoch": 3,
+    "train": {
+      "accuracy": 0.9625,
+      "macro_precision": 0.9625028906430666,
+      "macro_recall": 0.9625,
+      "macro_f1": 0.9624999414061585,
+      "loss": 0.1049992549419403
+    },
+    "val": {
+      "accuracy": 0.8775,
+      "macro_precision": 0.8845076519569148,
+      "macro_recall": 0.8775,
+      "macro_f1": 0.8769393047070716,
+      "loss": 0.3539651758223772
+    }
+  }
+]
